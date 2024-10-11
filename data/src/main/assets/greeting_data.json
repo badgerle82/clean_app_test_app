@@ -1,0 +1,14 @@
+[
+  {
+    "status": "Completed",
+    "greeting": "Hello world!"
+  },
+  {
+    "status": "Completed",
+    "greeting": "Hello world, Mister!"
+  },
+  {
+    "status": "New",
+    "greeting": "Hello a new brave world!"
+  }
+]
