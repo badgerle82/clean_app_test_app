@@ -32,6 +32,7 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
+        dataBinding = true
         compose = true
     }
     composeOptions {
@@ -49,7 +50,6 @@ dependencies {
     implementation("androidx.compose.ui:ui:1.5.4")
     implementation("androidx.compose.ui:ui-util:1.5.4")
     implementation("androidx.compose.material3:material3:1.3.0-beta04")
-    implementation("androidx.navigation:navigation-compose:2.7.3")
     implementation("androidx.compose.ui:ui-tooling:1.5.1")
     implementation("androidx.compose.ui:ui-test-manifest:1.5.1")
     implementation("androidx.compose.material:material-icons-core:1.5.4")
@@ -62,7 +62,6 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.1")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.4.1")
     implementation("androidx.compose.runtime:runtime-livedata:1.5.2")
-    implementation("androidx.navigation:navigation-compose:2.8.2")
 
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")

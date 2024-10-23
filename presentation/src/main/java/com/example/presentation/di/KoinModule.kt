@@ -8,7 +8,7 @@ import org.koin.dsl.module
 
 
 val viewModelModule = module {
-        viewModel { GreetingViewModel(get()) }
+        viewModel { GreetingViewModel(get(), get()) }
 }
 
 val interactorModule = module {
