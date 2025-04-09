@@ -14,7 +14,6 @@ class App : Application() {
 
     private fun setupKoinModule() {
         startKoin {
-            // currently a workaround for koin as not having Level.ERROR causes a runtime crash
             androidContext(this@App)
             modules(koinModule)
         }

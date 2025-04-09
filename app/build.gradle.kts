@@ -87,8 +87,6 @@ dependencies {
 
     implementation("androidx.compose.runtime:runtime-livedata:1.5.2")
 
-    implementation("com.bluelinelabs:conductor:3.1.4")
-
     implementation("io.insert-koin:koin-androidx-compose:3.2.2")
     implementation("io.insert-koin:koin-android:3.2.2")
 

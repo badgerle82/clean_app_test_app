@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
+
+    <string name="done">Done</string>
+    <string name="rates_title">Exchange Rates</string>
+    <string name="add_asset">Add Asset</string>
+    <string name="search_assets">Search Assets</string>
+    <string name="popular_assets">Popular Assets</string>
+    <string name="last_updated">Last updated: %1$s</string>
+
 </resources>
